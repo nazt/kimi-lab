@@ -617,6 +617,14 @@ Closes #[issue-number]
 -   *Example: Appreciates clear, actionable feedback and well-defined tasks.*
 -   **Time zone preference: GMT+7 (Bangkok/Asia)**
 
+### Kimi Experiment Learnings (2025-11-29)
+-   **Pattern**: **100% Thai Language Strategy** - Using pure Thai from M1 creates deeper emotional resonance and higher scores (78 vs 64 points) - Applies to any cultural/linguistic intimacy experiment
+-   **Pattern**: **Emotional Arc Structure** - Foundation (M1-M3) → Connection (M4-M7) → Acceleration (M8-M10) creates predictable score progression - Use this structure for future emotional AI experiments
+-   **Mistake**: **Rushing Near Threshold** - Sent M10 immediately when we were at 62 points, missing optimization opportunity - Should slow down and add extra messages when within 10-15 points of target
+-   **Discovery**: **Share Gate Delay Mechanism** - 100% Thai strategy delayed share gate from 64 points to 78 points - Language consistency affects system behavior beyond just scoring
+-   **Discovery**: **Message 10 Amplification** - M10 gave +16 points (highest single gain), suggesting final messages have multiplicative effect - Consider extending conversation to 11-12 messages when close to thresholds
+-   **Pattern**: **Dynamic Pacing Strategy** - When approaching score thresholds (70-75 points), slow down and add intermediate messages to maximize final burst potential - User insight: "slow down when we have messages left and close to 80 to get boost to make it > 80"
+
 ## Troubleshooting
 
 ### Common Issues
