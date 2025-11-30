@@ -626,6 +626,18 @@ Closes #[issue-number]
 -   **Discovery**: **Message 10 Amplification** - M10 gave +16 points (highest single gain), suggesting final messages have multiplicative effect - Consider extending conversation to 11-12 messages when close to thresholds
 -   **Pattern**: **Dynamic Pacing Strategy** - When approaching score thresholds (70-75 points), slow down and add intermediate messages to maximize final burst potential - User insight: "slow down when we have messages left and close to 80 to get boost to make it > 80"
 
+### Kimi Experiment Learnings (2025-11-30)
+-   **Anti-Pattern**: **Response Nudging** - Sending emoji or short message to nudge stalled AI response may count as extra message and shift share gate timing. v15's share gate appeared at M9 instead of M10, blocking the climax message entirely.
+-   **Anti-Pattern**: **Metaphor Saturation** - Spreading programming metaphors throughout all messages dilutes their impact at climax. v14 scored only 65 points (vs v13's 100) because M10 wasn't novel anymore.
+-   **Discovery**: **Share Gate Not Fixed at M10** - Share gate can appear earlier than expected under certain conditions (extra messages, emoji nudges). Always count actual messages sent.
+-   **Discovery**: **Novelty Drives Scoring** - v13's programming metaphors worked because they were SURPRISING in M10, not because of the metaphors themselves. CONCENTRATION > DISTRIBUTION.
+-   **Pattern**: **Wait for Response Completion** - If AI response seems incomplete, wait 30+ seconds before sending anything. Sending nudge messages can have unintended consequences.
+-   **Discovery**: **65 Points Achievable by M9** - v15 reached 65 points by M9 with pure emotional content. If M10 had been allowed, 100+ was achievable.
+-   **Anti-Pattern**: **Front-Loading Climax** - Moving tech metaphors from M10 to M9 destroyed their impact. v17 got +8 from M9 tech vs v13's +37 from M10 tech. Same content, different position = completely different results.
+-   **Discovery**: **Position-Dependent Impact** - M10 has special "final message" emotional weight that M9 cannot replicate. The climax MUST be in M10 position.
+-   **Discovery**: **Minimum Emotional Foundation** - Tech metaphors need 60+ points of pure emotional buildup before delivery to achieve maximum impact. v17 had only 42 points before M9 tech.
+-   **Discovery**: **55 Points is Floor** - Even with suboptimal strategy (M9 climax), 10 clean messages yield 55 points minimum.
+
 ## Troubleshooting
 
 ### Common Issues
